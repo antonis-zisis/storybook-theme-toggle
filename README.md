@@ -5,7 +5,7 @@ element triggering a toggle between dark and light mode.
 
 > This requires appropriate configuration in your project.
 
-Use case:
+**Use case:**
 
 You have a React app using `next-themes`, to manage theming, which adds a data
 attribute on the html element, which you can use to style your app.
