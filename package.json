@@ -1,6 +1,6 @@
 {
     "name": "storybook-theme-toggle",
-    "version": "0.1.0",
+    "version": "0.0.0",
     "description": "Add data attribute in html tag to toggle between dark/light modes.",
     "author": "Antonis Zisis",
     "license": "MIT",
