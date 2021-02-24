@@ -1,0 +1,40 @@
+{
+    "name": "storybook-theme-toggle",
+    "version": "0.1.0",
+    "description": "Add data attribute in html tag to toggle between dark/light modes.",
+    "author": "Antonis Zisis",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antonis-zisis/storybook-theme-toggle.git"
+    },
+    "main": "dist/preset.js",
+    "scripts": {
+        "clean": "rimraf ./dist",
+        "build": "babel ./src --out-dir ./dist",
+        "prepublish": "npm run clean && npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@storybook/addons": "^6.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.13.0",
+        "@babel/core": "^7.13.1",
+        "@babel/preset-env": "^7.13.5",
+        "@babel/preset-react": "^7.12.13",
+        "@storybook/addon-actions": "^6.1.20",
+        "@storybook/addon-essentials": "^6.1.20",
+        "@storybook/addon-links": "^6.1.20",
+        "@storybook/react": "^6.1.20",
+        "babel-loader": "^8.2.2",
+        "np": "^7.4.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "rimraf": "^3.0.2"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0"
+    }
+}
