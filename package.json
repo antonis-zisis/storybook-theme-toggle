@@ -9,6 +9,16 @@
         "url": "git+https://github.com/antonis-zisis/storybook-theme-toggle.git"
     },
     "main": "dist/preset.js",
+    "files": [
+        "dist/**/*",
+        "README.md",
+        "preset.js"
+    ],
+    "keywords": [
+        "storybook-addons",
+        "theme",
+        "toggle"
+    ],
     "scripts": {
         "clean": "rimraf ./dist",
         "build": "babel ./src --out-dir ./dist",
