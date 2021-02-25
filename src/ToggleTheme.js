@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IconButton } from '@storybook/components';
 import Moon from './Icons/Moon';
 import Sun from './Icons/Sun';
